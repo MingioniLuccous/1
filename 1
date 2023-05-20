@@ -1,0 +1,6 @@
+def parse(code):
+    new = ''
+    for c in code:
+        if c in '><+-.,[]':
+            new += c
+    return new
